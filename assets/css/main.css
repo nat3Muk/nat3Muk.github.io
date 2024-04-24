@@ -2598,11 +2598,11 @@ input, select, textarea {
 			display: block;
 		}
 
-		.image.left, .image.right {
+		.image.left, .image.right, image.center {
 			max-width: 40%;
 		}
 
-			.image.left img, .image.right img {
+			.image.left img, .image.right img .image.center img {
 				width: 100%;
 			}
 
@@ -2616,6 +2616,15 @@ input, select, textarea {
 			float: right;
 			margin: 0 0 2rem 2rem;
 			top: 0.75rem;
+		}
+
+		.center {
+			text-align: center;
+		}
+		.image.center {
+			margin: 0 2rem 2rem 0;
+			top: 0.75rem;
+			display: inline-block;
 		}
 
 		.image.fit {
